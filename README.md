@@ -1,72 +1,81 @@
 <h3 align="center">🛠️ chatflow-open</h3>
-
 <div align="center">
-  <a href="https://github.com/your-org/chatflow-open/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License"></a>
-  <a href="https://github.com/your-org/chatflow-open"><img src="https://img.shields.io/github/languages/top/your-org/chatflow-open?color=orange" alt="Language"></a>
-  <a href="https://github.com/your-org/chatflow-open/actions"><img src="https://img.shields.io/github/workflow/status/your-org/chatflow-open/CI?label=build" alt="Build Status"></a>
-  <a href="https://github.com/your-org/chatflow-open/stargazers"><img src="https://img.shields.io/github/stars/your-org/chatflow-open?style=social" alt="Stars"></a>
+  <a href="https://github.com/axentx/chatflow-open/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/axentx/chatflow-open" alt="License">
+  </a>
+  <a href="https://github.com/axentx/chatflow-open">
+    <img src="https://img.shields.io/github/languages/top/axentx/chatflow-open" alt="Language">
+  </a>
+  <a href="https://github.com/axentx/chatflow-open/actions">
+    <img src="https://img.shields.io/github/actions/workflow/status/axentx/chatflow-open/build.yml" alt="Build">
+  </a>
+  <a href="https://github.com/axentx/chatflow-open/stargazers">
+    <img src="https://img.shields.io/github/stars/axentx/chatflow-open" alt="Stars">
+  </a>
 </div>
-
 ---
-
 # 🚀 chatflow-open
-**Power support teams with self‑hosted, Intercom‑like chat.** A privacy‑first, open‑source platform that lets you run real‑time customer conversations on your own infrastructure, eliminating vendor lock‑in and giving you full control over data.
+**Power customer support teams with self-hostable, open-source chat functionality.** chatflow-open is a customer support chat platform that provides Intercom-like functionality without vendor lock-in, giving you full control over your data and customization options.
 
-## ⚡ Why chatflow-open?
-- **Zero Vendor Lock‑in** – 100 % self‑hosted, so you keep every conversation on‑premises.
-- **Cost Predictability** – No per‑seat fees; run on existing servers and scale linearly.
-- **Data Privacy** – GDPR‑ready out of the box; all messages stay within your network.
-- **Developer Friendly** – Extensible webhook API lets you integrate with any CRM or ticketing system.
-- **Built for SaaS Teams** – Designed for product‑led growth companies that need live chat without sacrificing security.
-- **Open‑Source Community** – Transparent code, community‑driven roadmap, and free commercial use.
-- **Rapid Deployment** – Docker‑first architecture enables a full stack in under 5 minutes.
+## Why chatflow-open?
+- **Scalable**: Built to handle a large volume of conversations, making it perfect for growing businesses.
+- **Customizable**: Allows for customization of the chat interface, workflows, and integrations to fit your specific needs.
+- **Secure**: Provides enterprise-grade security features to protect your customer data.
+- **Cost-effective**: Reduces costs associated with vendor lock-in and proprietary solutions.
+- **Flexible**: Supports multiple channels, including web, mobile, and messaging platforms.
+- **Open-source**: Encourages community involvement, transparency, and continuous improvement.
+- **Self-hostable**: Gives you full control over your data and infrastructure.
 
-## 🔥 Feature Overview
-
+## Feature Overview
 | Feature | Description |
-|---------|-------------|
-| **Live Chat Widget** | Real‑time messaging UI that can be embedded on any web page with a single script tag. |
-| **Agent Dashboard** | Multi‑agent interface with conversation routing, typing indicators, and canned responses. |
-| **Rich Media Support** | Send images, files, and markdown‑styled messages directly in the chat. |
-| **Webhook Integrations** | Trigger external workflows (e.g., ticket creation) on message events. |
-| **Multi‑Tenant Mode** | Host multiple independent chat instances on the same server. |
-| **Analytics & Export** | Built‑in metrics and CSV export for conversation history. |
-| **Theming & Localization** | Custom CSS and i18n support for brand consistency. |
+| --- | --- |
+| Multi-channel support | Supports web, mobile, and messaging platforms |
+| Customizable chat interface | Allows for customization of the chat interface to fit your brand |
+| Workflow automation | Automates routine tasks and workflows to improve efficiency |
+| Integration with third-party services | Supports integration with popular third-party services |
+| Enterprise-grade security | Provides robust security features to protect customer data |
+| Scalable architecture | Built to handle a large volume of conversations |
 
-## 🛡️ Tech Stack
-*The technology decisions are documented in `decisions/tech-stack.md`. This section will be populated once the stack is locked.*
+## Tech Stack
+* Please refer to the decisions/tech-stack.md file for the most up-to-date information on the tech stack used in this project.
 
-## 📦 Project Structure
-```
-chatflow-open/
-├─ docs/            # Documentation, guides, and API specs
-└─ README.md       # This readme
-```
+## Project Structure
+* docs: Documentation for the project, including startup artifacts
 
-## 🔧 Getting Started
+## Getting Started
+To get started with chatflow-open, follow these steps:
 ```bash
-# 1️⃣ Clone the repository
-git clone https://github.com/your-org/chatflow-open.git
+# Clone the repository
+git clone https://github.com/axentx/chatflow-open.git
+
+# Change into the project directory
 cd chatflow-open
 
-# 2️⃣ Follow the quick‑start guide (adds Docker & environment setup)
-#    The guide lives in the docs folder.
-cat docs/quick-start.md
-```
-*All further installation steps (Docker compose, environment variables, etc.) are detailed in `docs/quick-start.md`.*
+# Install dependencies
+# Please refer to the decisions/tech-stack.md file for the most up-to-date information on the dependencies used in this project.
 
-## 🌐 Deploy
+# Run the application
+# Please refer to the decisions/tech-stack.md file for the most up-to-date information on how to run the application.
+
+# Run tests
+# Please refer to the decisions/tech-stack.md file for the most up-to-date information on how to run tests.
+```
+
+## Deploy
+To deploy chatflow-open, follow these steps:
 ```bash
-# Deploy with Docker Compose (recommended for production)
-docker compose up -d
+# Build the application
+# Please refer to the decisions/tech-stack.md file for the most up-to-date information on how to build the application.
+
+# Deploy to production
+# Please refer to the decisions/tech-stack.md file for the most up-to-date information on how to deploy to production.
 ```
-*For alternative deployment strategies (Kubernetes, bare‑metal), see `docs/deployment.md`.*
 
-## 📈 Status
-Active development – the latest commit introduces the initial documentation scaffold and a placeholder Docker configuration.
+## Status
+chatflow-open is currently in the development phase, with recent commits focused on generating a proper project README and adding startup artifacts.
 
-## 🤝 Contributing
-We welcome contributions! Please read our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to propose changes, report bugs, and submit pull requests.
+## Contributing
+Please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) file for information on how to contribute to chatflow-open.
 
-## 📄 License
-This project is licensed under the **MIT License**.
+## License
+chatflow-open is licensed under the MIT License.
